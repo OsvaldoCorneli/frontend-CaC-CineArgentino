@@ -1,0 +1,13 @@
+.dropdown-item.text-white:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: red;
+}
