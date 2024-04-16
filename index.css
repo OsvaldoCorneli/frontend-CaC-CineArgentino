@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(26, 25, 25);
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), url('./Public/Inca-new-1536x863.webp');
+    background-size: contain;
+    height: 50vw;
+    background-size: cover;
+    max-height: 300px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+header ul{
+    display: none;
+}
+#menuh{
+    margin: 0 5px 0 0
+}
+header h1{
+    width: 100%;
+    text-align: start;
+    color: white;
+    margin: 0 0 0 5px;
+
+}
+
+
+
+@media(min-width: 760px){
+    header{
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), url('./Public/Inca-new-1536x863.webp');
+        height: 45vw;
+        background-size: 70%;
+        background-position: center;
+        max-height: 300px;
+    
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+
+    #menuh {
+        display: none;
+    }
+
+    nav ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        list-style: none;
+        margin: 5px 0;;
+    }
+
+    nav ul a{
+        text-decoration: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: white;
+    }
+
+    nav ul a:hover{
+        background-color: rgba(255, 255, 255, 0.4);
+        color: rgb(0, 0, 0);
+        border-radius: 15px;
+    }
+    
+
+    nav h1{
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 1200px){
+header{
+    background-size: contain;
+    height: 75vw;
+    background-size: 75%;
+    max-height: 300px;
+
+}
+
+nav{
+    flex-direction: row;
+}
+
+nav h1{
+    width: 75%;
+}
+
+
+}
