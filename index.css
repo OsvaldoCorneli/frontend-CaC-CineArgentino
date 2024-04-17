@@ -21,7 +21,7 @@ max-height: 650px;
 
 .item-image img{
     width: 250px;
-    height: 375px;
+    height: 350px;
 }
 
 .wrapper{
@@ -31,6 +31,8 @@ max-height: 650px;
     display: flex;
     overflow-x: auto;
     align-items: center;
+    margin: 5px 15px;
+    padding: 5px;
 }
 
 .wrapper::-webkit-scrollbar{
