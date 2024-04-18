@@ -68,7 +68,12 @@ max-height: 650px;
     border-color: rgba(182, 7, 7, 0.2);
 }
 
-
+.card-body.text-center.bg-secondary a{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
 
 
 @media(min-width: 992px ){
