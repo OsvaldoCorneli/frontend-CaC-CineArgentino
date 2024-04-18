@@ -47,7 +47,7 @@
             </div>
           </nav>
           <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="carousel">
-            <div class="carousel-indicators my-5">
+            <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -91,6 +91,8 @@
             </button>
         </div>
       </header>
+
+
       <main>
         <div class="my-5 py-3 bg-light text-center text-md-start ps-md-3 ps-lg-5" id="inicio"></div>
         <div class="container mt-5">
@@ -133,7 +135,7 @@
         </div>
         
         <!-- Currucel con peliculas -->
-        <section>
+        <article>
         <h4 class="my-5 p-1 bg-light text-center text-md-start ps-md-3 ps-lg-5" id="estreno">Estrenos</h4>
 
         <div id="estrenos" class="container">
@@ -178,26 +180,27 @@
             
           </div>
         </div>
-      </section>
+      </article>
         
       
-      <section>
+      <article>
             <h4 class="my-5 p-1 bg-light text-center text-md-start ps-md-3 ps-lg-5">Actores</h4>
 
             <h5 class="text-white ms-5 py-2 mb-2 bg-dark  " id="actrices" >Actrices </h5>
 
             <div class="container text-white ms-2 w-100 ms-lg-5 w-lg-50">
-              <p>Descubre la rica historia del cine argentino a través de las talentosas 
-                actrices que han dejado una marca indeleble en la pantalla grande. Desde las 
-                primeras figuras que iluminaron las salas de cine hasta las destacadas artistas 
-                de la actualidad, las actrices argentinas han desafiado fronteras y emocionado al
-                 público con sus interpretaciones. Desde el glamour de las décadas doradas hasta 
-                 las voces contemporáneas que redefinen el panorama cinematográfico, sumérgete en
-                  el legado de estas mujeres que han contribuido a forjar la identidad del cine argentino.</p>
+              <p>El cine argentino ha sido bendecido con un talento femenino excepcional, dando al mundo actrices que han conquistado las pantallas con su pasión,
+                 versatilidad y 
+                talento innato. Desde las leyendas del cine clásico hasta las estrellas emergentes de la actualidad, las actrices argentinas han
+                 demostrado ser maestras de la interpretación, encarnando personajes inolvidables que han conmovido a las audiencias con sus historias.
+                <br>
+                En esta sección, rendimos homenaje a algunas de las actrices más destacadas del cine argentino, 
+                explorando sus trayectorias, sus logros y el impacto que han tenido en la industria cinematográfica.
+                 Acompáñanos en este viaje para descubrir a las mujeres que han iluminado la pantalla grande con su talento extraordinario.</p>
             </div>
 
           <div class="wrapper">
-            <div class="item-image"><img src="./public/actrices/andreadelboca.jpg" alt=""><h6 class="text-white text-center">Andrea Del Boca</h6></div>
+            <div class="item-image"><a onclick='openModal(1)'><img src="./public/actrices/andreadelboca.jpg" alt=""></a><h6 class="text-white text-center">Andrea Del Boca</h6></div>
             <div class="item-image"><img src="./public/actrices/betianablum.webp" alt=""><h6 class="text-white text-center">Betiana Blum</h6></div>
             <div class="item-image"><img src="./public/actrices/candelavetrano.jpg" alt=""><h6 class="text-white text-center">Candela Vetrano</h6></div>
             <div class="item-image"><img src="./public/actrices/carlapeterson.webp" alt=""><h6 class="text-white text-center">Carla Peterson</h6></div>
@@ -214,7 +217,7 @@
             <div class="item-image"><img src="./public/actrices/mercedescarreras.jpg" alt=""><h6 class="text-white text-center">Mercedes Carreras</h6></div>
             <div class="item-image"><img src="./public/actrices/mirthalegrand.jpg" alt=""><h6 class="text-white text-center">Mirtha Legrand</h6></div>
             <div class="item-image"><img src="./public/actrices/monicavilla.jpg" alt=""><h6 class="text-white text-center">Monica Villa</h6></div>
-            <div class="item-image"><img src="./public/actrices/nataliaoreiropjpg" alt=""><h6 class="text-white text-center">Natalia Oreiro</h6></div>
+            <div class="item-image"><img src="./public/actrices/nataliaoreiro.jpg" alt=""><h6 class="text-white text-center">Natalia Oreiro</h6></div>
             <div class="item-image"><img src="./public/actrices/normaaleandro.jpg" alt=""><h6 class="text-white text-center">Norma Aleandro</h6></div>
             <div class="item-image"><img src="./public/actrices/soledadvillamil.jpg" alt=""><h6 class="text-white text-center">Soledad Villamil</h6></div>
             <div class="item-image"><img src="./public/actrices/susanagimenez.webp" alt=""><h6 class="text-white text-center">Susana Gimenez</h6></div>
@@ -223,11 +226,12 @@
           <h5 class="text-white ms-5 mt-5 py-2 mb-2 bg-dark  " id="actores" >Actores</h5>
 
           <div class="container text-white ms-2 w-100 ms-lg-5 w-lg-50">
-            <p> Explora la fascinante historia del cine argentino a través de los talentosos actores que han dado vida a una amplia variedad 
-              de personajes en la gran pantalla. Desde los íconos de las épocas doradas hasta los intérpretes contemporáneos que desafían 
-              convenciones, los actores argentinos han dejado una marca indeleble en la industria cinematográfica nacional. Acompáñanos en 
-              un viaje a través del tiempo mientras celebramos las contribuciones de estos hombres que han capturado la imaginación del 
-              público y han ayudado a dar forma al rico patrimonio cinematográfico de Argentina.</p>
+            <p> El cine argentino ha sido cuna de grandes actores que han dejado una huella imborrable en la historia del cine. 
+              Desde figuras emblemáticas del cine clásico hasta talentos contemporáneos que nos cautivan con sus interpretaciones,
+               los actores argentinos han demostrado su capacidad para encarnar personajes memorables y conectar con las audiencias.
+              <br>
+              En esta sección, rendimos homenaje a algunos de los actores más destacados del cine argentino, resaltando sus contribuciones 
+              a la industria, su versatilidad y las películas que los han convertido en íconos.</p>
           </div>
 
 
@@ -292,11 +296,11 @@
         </div>
 
 
-        </section>
+      </article> 
         
         <h4 class="my-5 p-1 bg-light text-center text-md-start ps-md-3 ps-lg-5" id="clasica">Peliculas clasicas</h4>
 
-        <section>
+        <article>
 
         <div class="container">
           <div class="row justify-content-center">
@@ -375,24 +379,145 @@
               </div>
             </div>
             <!-- ---------------------------------------------------------------------------- -->
+            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+              <img src="./public/clasicas/elangel.jpg" class="card-img-top" alt="camila">
+              <div class="card-body">
+                <h5 class="card-title">Camila</h5>
+                <p class="card-text">Esta película biográfica narra la historia de Camila Perri, una joven aristócrata 
+                  argentina que se enamora de un sacerdote durante la época de la Revolución de Mayo. Es una de las películas 
+                  más importantes del cine feminista argentino y una obra maestra del cine latinoamericano..</p>
+              </div>
+              <ul class="list-group list-group-flush bg-secondary">
+                <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
+                <li class="list-group-item bg-secondary text-white">Año: 1984</li>
+              </ul>
+              <div id="casagrande" class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+              </div>
+            </div>
+            <!-- ---------------------------------------------------------------------------- -->
+            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+              <img src="./public/clasicas/elsecretodesusojos.jpg" class="card-img-top" alt="camila">
+              <div class="card-body">
+                <h5 class="card-title">Camila</h5>
+                <p class="card-text">Esta película biográfica narra la historia de Camila Perri, una joven aristócrata 
+                  argentina que se enamora de un sacerdote durante la época de la Revolución de Mayo. Es una de las películas 
+                  más importantes del cine feminista argentino y una obra maestra del cine latinoamericano..</p>
+              </div>
+              <ul class="list-group list-group-flush bg-secondary">
+                <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
+                <li class="list-group-item bg-secondary text-white">Año: 1984</li>
+              </ul>
+              <div id="casagrande" class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+              </div>
+            </div>
+            <!-- ---------------------------------------------------------------------------- -->
+            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+              <img src="./public/clasicas/relatossalvajes.jpg" class="card-img-top" alt="camila">
+              <div class="card-body">
+                <h5 class="card-title">Camila</h5>
+                <p class="card-text">Esta película biográfica narra la historia de Camila Perri, una joven aristócrata 
+                  argentina que se enamora de un sacerdote durante la época de la Revolución de Mayo. Es una de las películas 
+                  más importantes del cine feminista argentino y una obra maestra del cine latinoamericano..</p>
+              </div>
+              <ul class="list-group list-group-flush bg-secondary">
+                <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
+                <li class="list-group-item bg-secondary text-white">Año: 1984</li>
+              </ul>
+              <div id="casagrande" class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+              </div>
+            </div>
+            <!-- ---------------------------------------------------------------------------- -->
+            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+              <img src="./public/clasicas/nuevereinas.jpg" class="card-img-top" alt="camila">
+              <div class="card-body">
+                <h5 class="card-title">Camila</h5>
+                <p class="card-text">Esta película biográfica narra la historia de Camila Perri, una joven aristócrata 
+                  argentina que se enamora de un sacerdote durante la época de la Revolución de Mayo. Es una de las películas 
+                  más importantes del cine feminista argentino y una obra maestra del cine latinoamericano..</p>
+              </div>
+              <ul class="list-group list-group-flush bg-secondary">
+                <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
+                <li class="list-group-item bg-secondary text-white">Año: 1984</li>
+              </ul>
+              <div id="casagrande" class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+              </div>
+            </div>
+            <!-- ---------------------------------------------------------------------------- -->
+            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+              <img src="./public/clasicas/esperandoalacarroza.jpg" class="card-img-top" alt="camila">
+              <div class="card-body">
+                <h5 class="card-title">Camila</h5>
+                <p class="card-text">Esta película biográfica narra la historia de Camila Perri, una joven aristócrata 
+                  argentina que se enamora de un sacerdote durante la época de la Revolución de Mayo. Es una de las películas 
+                  más importantes del cine feminista argentino y una obra maestra del cine latinoamericano..</p>
+              </div>
+              <ul class="list-group list-group-flush bg-secondary">
+                <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
+                <li class="list-group-item bg-secondary text-white">Año: 1984</li>
+              </ul>
+              <div id="casagrande" class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+              </div>
+            </div>
+            <!-- ---------------------------------------------------------------------------- -->
 
 
           </div>
+        </div>  
+      </article>
+
+      <div class="my-5 py-3 bg-light text-center text-md-start ps-md-3 ps-lg-5" id="inicio"></div>
+
+
+
+      <!------------------------------modal------------------------------------------------->
+      <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="botonModals" style="display: none;">
+  Launch demo modal
+    </button>
+
+<!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+        <div class="modal-body">
+        ...
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+          </div>
+        </div>
+      </div>
 
 
 
-          
-        </section>
 
 
-
-
-        
         </main> 
         
+
         
 
+        <footer>
+
+        </footer>
+        
+    <script src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
