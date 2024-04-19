@@ -1,54 +1,39 @@
 
 function navegar(direccion){
     const botonMenu = document.querySelector(".navbar-toggler") 
+    let destino = 0
     switch(direccion){
         case "inicio":
-        window.location.href = "#inicio"
-        deleteRouteLink()
-        if(botonMenu.ariaExpanded){
-            botonMenu.click()
-        }
+            destino = document.getElementById("inicio").offsetTop; 
         break;
         case "estreno":
-            window.location.href = "#estreno"
-            deleteRouteLink()
-            if(botonMenu.ariaExpanded){
-                botonMenu.click()
-            }
+            destino = document.getElementById("estreno").offsetTop; 
         break;
         case "actrices":
-            window.location.href = "#actrices"
-            deleteRouteLink()
-            if(botonMenu.ariaExpanded){
-                botonMenu.click()
-            }
+            destino = document.getElementById("actrices").offsetTop;      
         break;
         case "actores":
-            window.location.href = "#actores"
-            deleteRouteLink()
-            if(botonMenu.ariaExpanded){
-                botonMenu.click()
-            }
+            destino = document.getElementById("actores").offsetTop;   
         break;
         case "directores":
-            window.location.href = "#directores"
-            deleteRouteLink()
-            if(botonMenu.ariaExpanded){
-                botonMenu.click()
-            }
+            destino = document.getElementById("directores").offsetTop;  
         break;
         case "clasica":
-            window.location.href = "#clasica"
-            deleteRouteLink()
-            if(botonMenu.ariaExpanded){
-                botonMenu.click()
-            }
+            destino = document.getElementById("clasica").offsetTop;  
         break;
 
         default:
         break;
     }
 
+    window.scrollTo({
+        top: destino,
+        behavior: 'smooth'
+    });
+
+    if(botonMenu.ariaExpanded){
+        botonMenu.click()
+    }
 
 }
 
@@ -58,3 +43,5 @@ function deleteRouteLink(){
     if (window.location.hash) {
       history.replaceState({}, document.title, window.location.href.split('#')[0]);
   }}
+
+
