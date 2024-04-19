@@ -12,31 +12,31 @@
       <header>
         <nav class="navbar navbar-expand-md navbar-light bg-dark bg-gradient fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand text-white me-lg-5" href="#">Cine Argentino</a>
+              <a class="navbar-brand text-white me-lg-5">Cine Argentino</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-white mx-lg-4" aria-current="page" href="#inicio">Inicio</a>
+                    <a class="nav-link active text-white mx-lg-4" aria-current="page" onclick="navegar('inicio')">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white mx-lg-4" href="#estreno">Estrenos</a>
+                    <a class="nav-link text-white mx-lg-4"  onclick="navegar('estreno')">Estrenos</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white mx-lg-4"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Actores
                     </a>
                     <ul class="dropdown-menu bg-dark bg-gradient" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item text-white my-2" href="#actrices">Actrices</a></li>
-                      <li><a class="dropdown-item text-white my-2" href="#actores">Actores</a></li>
+                      <li><a class="dropdown-item text-white my-2" onclick="navegar('actrices')" >Actrices</a></li>
+                      <li><a class="dropdown-item text-white my-2" onclick="navegar('actores')" >Actores</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item text-white my-lg-2" href="#directores">Directores</a></li>
+                      <li><a class="dropdown-item text-white my-lg-2" onclick="navegar('directores')">Directores</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" style="cursor: pointer" href="#clasica">Clasicas</a>
+                    <a class="nav-link text-white" style="cursor: pointer" onclick="navegar('clasica')">Clasicas</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -346,17 +346,15 @@
             <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
               <img src="./public/clasicas/lacasaesgrande.jpg" class="card-img-top" alt="lacasaesgrande">
               <div class="card-body">
-                <h5 class="card-title">La casa es grande</h5>
-                <p class="card-text">Este drama familiar narra la historia de una familia adinerada que 
-                  se ve obligada a vender su mansión por la crisis económica. Es una de 
-                  las obras más importantes del cine argentino de la década de 1950.</p>
+                <h5 class="card-title">La casa grande</h5>
+                <p class="card-text">Un hombre soltero y trabajador que vive con su madre en una vieja casa familiar sueña con reunir a toda la familia. La película explora las relaciones familiares, la nostalgia y el paso del tiempo.</p>
               </div>
               <ul class="list-group list-group-flush bg-secondary">
-                <li class="list-group-item bg-secondary text-white">Director: Leopoldo Torre Nilsson</li>
-                <li class="list-group-item bg-secondary text-white">Año: 1957</li>
+                <li class="list-group-item bg-secondary text-white">Director: Leo Fleider</li>
+                <li class="list-group-item bg-secondary text-white">Año: 1953</li>
               </ul>
-              <div id="casagrande" class="card-body text-center bg-secondary">
-                <a class="mx-4" href="#casagrande" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+              <div  class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=4YplflAsIlE" class="card-link"><i class="fa-brands fa-youtube"></i></a>
                 <a class="mx-4" href="https://es.wikipedia.org/wiki/La_casa_grande_(pel%C3%ADcula_de_1953)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
               </div>
             </div>
@@ -373,7 +371,7 @@
                 <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
                 <li class="list-group-item bg-secondary text-white">Año: 1984</li>
               </ul>
-              <div id="casagrande" class="card-body text-center bg-secondary">
+              <div  class="card-body text-center bg-secondary">
                 <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
                 <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
               </div>
@@ -389,9 +387,9 @@
                 <li class="list-group-item bg-secondary text-white">Director:  Leonardo Favio</li>
                 <li class="list-group-item bg-secondary text-white">Año: 1965</li>
               </ul>
-              <div id="casagrande" class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+              <div  class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=Z2efc6kNHnU" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+                <a class="mx-4" href="https://es.wikipedia.org/wiki/Cr%C3%B3nica_de_un_ni%C3%B1o_solo" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
               </div>
             </div>
             <!-- ---------------------------------------------------------------------------- -->
@@ -405,9 +403,9 @@
                 <li class="list-group-item bg-secondary text-white">Director: Juan José Campanella</li>
                 <li class="list-group-item bg-secondary text-white">Año: 2009</li>
               </ul>
-              <div id="casagrande" class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+              <div  class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=hKa8U-8vsfU" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+                <a class="mx-4" href="https://es.wikipedia.org/wiki/El_secreto_de_sus_ojos" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
               </div>
             </div>
             <!-- ---------------------------------------------------------------------------- -->
@@ -421,9 +419,9 @@
                 <li class="list-group-item bg-secondary text-white">Director: Damián Szifron</li>
                 <li class="list-group-item bg-secondary text-white">Año: 2015</li>
               </ul>
-              <div id="casagrande" class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+              <div  class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=3BxE9osMt5U" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+                <a class="mx-4" href="https://es.wikipedia.org/wiki/Relatos_salvajes" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
               </div>
             </div>
             <!-- ---------------------------------------------------------------------------- -->
@@ -437,9 +435,9 @@
                 <li class="list-group-item bg-secondary text-white">Director: Fabián Bielinsky</li>
                 <li class="list-group-item bg-secondary text-white">Año: 2000</li>
               </ul>
-              <div id="casagrande" class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+              <div  class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=O2D3rXfNjWw" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+                <a class="mx-4" href="https://es.wikipedia.org/wiki/Nueve_reinas" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
               </div>
             </div>
             <!-- ---------------------------------------------------------------------------- -->
@@ -453,13 +451,13 @@
                 <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
                 <li class="list-group-item bg-secondary text-white">Año: 1985</li>
               </ul>
-              <div id="casagrande" class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+              <div  class="card-body text-center bg-secondary">
+                <a class="mx-4" href="https://www.youtube.com/watch?v=xqYPyvbZk6I" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+                <a class="mx-4" href="https://es.wikipedia.org/wiki/Esperando_la_carroza_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
               </div>
             </div>
             <!-- ---------------------------------------------------------------------------- -->
-
+            
 
           </div>
         </div>  
@@ -499,14 +497,20 @@
 
         </main> 
         
-
-        
-
-        <footer>
-
-        </footer>
+        <footer class="container-fluid p-5 text-white text-center bg-black">
+          
+          <p>Este proyecto es parte del curso "Codo a Codo" y tiene fines educativos y de práctica. Se ha realizado con el propósito de aprender y mejorar habilidades en desarrollo web.</p>
+          <p>Por favor, ten en cuenta que algunas imágenes y recursos utilizados en este proyecto pueden ser propiedad de terceros y se utilizan únicamente con fines ilustrativos y didácticos. Se ha hecho un esfuerzo por respetar los derechos de autor y proporcionar atribuciones cuando corresponda.</p>
+          <p>Las referencias a sitios web externos se proporcionan con el propósito de complementar la información y no constituyen un respaldo o afiliación. No nos hacemos responsables por el contenido de sitios externos enlazados.</p>
+          <p>Si eres propietario de algún contenido utilizado en este proyecto y deseas que sea retirado o modificado, por favor contáctanos de inmediato y tomaremos las medidas necesarias.</p>
+          <!-- <a href="https://www.linkedin.com/in/osvaldo-corneli-nassif-822728268/" target="_blank">linkedIn</a><br> -->
+          <p>&copy; 2024 Osvaldo Matias Corneli Nassif / Todos los derechos reservados</p>
+          
+      </footer>
+      
         
     <script src="./informacion.js"></script>
+    <script src="./funcion.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
