@@ -20,24 +20,24 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-white mx-lg-4" style="cursor: pointer" aria-current="page" onclick="navegar('inicio')">Inicio</a>
+                    <a class="nav-link active text-white mx-lg-4" style="cursor: pointer" aria-current="page" href="./index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white mx-lg-4" style="cursor: pointer" onclick="navegar('estreno')">Estrenos</a>
+                    <a class="nav-link text-white mx-lg-4" style="cursor: pointer" href="./estrenos.html">Estrenos</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white mx-lg-4"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Actores
                     </a>
                     <ul class="dropdown-menu bg-dark bg-gradient" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item text-white my-2" style="cursor: pointer" onclick="navegar('actrices')" >Actrices</a></li>
-                      <li><a class="dropdown-item text-white my-2" style="cursor: pointer" onclick="navegar('actores')" >Actores</a></li>
+                      <li><a class="dropdown-item text-white my-2" style="cursor: pointer" href="./actrices.html" >Actrices</a></li>
+                      <li><a class="dropdown-item text-white my-2" style="cursor: pointer" href="./actores.html" >Actores</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item text-white my-lg-2" style="cursor: pointer" onclick="navegar('directores')">Directores</a></li>
+                      <li><a class="dropdown-item text-white my-lg-2" style="cursor: pointer" href="./directores.html">Directores</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" style="cursor: pointer" onclick="navegar('clasica')">Clasicas</a>
+                    <a class="nav-link text-white" style="cursor: pointer" href="./clasicas.html">Clasicas</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -136,345 +136,18 @@
         </div>
         
         <!-- Currucel con peliculas -->
-        <article>
-        <h4 class="my-5 p-1 bg-light text-center text-md-start ps-md-3 ps-lg-5" id="estreno">Estrenos</h4>
-
-        <div id="estrenos" class="container">
-          <div  class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/cuandoacechalamaldad.jpg"  alt="poster pelicula cuando acecha la maldad">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/alemania.jpg"  alt="poster pelicula alemani">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/almamula.jpg"  alt="poster pelicula almamula">
-              
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public//estrenos/descansarenpaz.jpg"  alt="poster pelicula descansar en paz">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/elvientoquearrasa.jpg"  alt="poster pelicula el viento que arrasa">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/eureja.jpg"   alt="poster pelicula eureka">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/igualitaami.jpg"  alt="poster pelicula igualita a mi">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/jaquemate.jpg"  alt="poster pelicula jaquemate">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/larenga.avif"  alt="poster pelicula la renga">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/mixtapelapampa.jpg"  alt="poster mix tape la pampa">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/Nahir.webp"  alt="poster pelicula Nahir">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3 text-center">
-              <img src="./public/estrenos/puan.jpg"  alt="poster pelicula puan">
-            </div>
-            
-          </div>
-        </div>
-      </article>
+        
         
       
       <article>
             <h4 class="my-5 p-1 bg-light text-center text-md-start ps-md-3 ps-lg-5">Actores</h4>
 
-            <h5 class="text-white ms-5 py-2 mb-2 bg-dark  " id="actrices" >Actrices </h5>
 
-            <div class="container text-white ms-2 w-100 ms-lg-5 w-lg-50">
-              <p>El cine argentino ha sido bendecido con un talento femenino excepcional, dando al mundo actrices que han conquistado las pantallas con su pasión,
-                 versatilidad y 
-                talento innato. Desde las leyendas del cine clásico hasta las estrellas emergentes de la actualidad, las actrices argentinas han
-                 demostrado ser maestras de la interpretación, encarnando personajes inolvidables que han conmovido a las audiencias con sus historias.
-                <br>
-                En esta sección, rendimos homenaje a algunas de las actrices más destacadas del cine argentino, 
-                explorando sus trayectorias, sus logros y el impacto que han tenido en la industria cinematográfica.
-                 Acompáñanos en este viaje para descubrir a las mujeres que han iluminado la pantalla grande con su talento extraordinario.
-                 <br><br>
-                 Haz clic en las imagenenes para ver la informacion de cada actriz.
-                </p>
-            
-            </div>
-
-          <div class="wrapper">
-            <div class="item-image"><a onclick='openModal(1,"actriz")'><img src="./public/actrices/andreadelboca.jpg" alt="foto de Andrea del foto"></a><h6 class="text-white text-center">Andrea Del Boca</h6></div>
-            <div class="item-image"><a onclick='openModal(2 ,"actriz")'><img src="./public/actrices/betianablum.webp" alt="foto de betiana blum"></a><h6 class="text-white text-center">Betiana Blum</h6></div>
-            <div class="item-image"><a onclick='openModal(3 ,"actriz")'><img src="./public/actrices/candelavetrano.jpg" alt="foto de"></a><h6 class="text-white text-center">Candela Vetrano</h6></div>
-            <div class="item-image"><a onclick='openModal(4 ,"actriz")'><img src="./public/actrices/carlapeterson.webp" alt=""></a><h6 class="text-white text-center">Carla Peterson</h6></div>
-            <div class="item-image"><a onclick='openModal(5,"actriz")'><img src="./public/actrices/celestecid.jpg" alt="foto de celeste cid"></a><h6 class="text-white text-center">Celeste Cid</h6></div>
-            <div class="item-image"><a onclick='openModal(6,"actriz")'><img src="./public/actrices/chinazorrilla.jpg" alt="foto de china zorrilla"></a><h6 class="text-white text-center">China Zorrilla</h6></div>
-            <div class="item-image"><a onclick='openModal(7,"actriz")'><img src="./public/actrices/elenaroger.jpg" alt="foto de elena roger "></a><h6 class="text-white text-center">Elena Roger</h6></div>
-            <div class="item-image"><a onclick='openModal(8,"actriz")'><img src="./public/actrices/ericarivas.jpg" alt="foto de erica rivas"></a><h6 class="text-white text-center">Erica Rivas</h6></div>
-            <div class="item-image"><a onclick='openModal(9,"actriz")'><img src="./public/actrices/gracielaborges.jpg" alt="foto de graciela borges"></a><h6 class="text-white text-center">Graciela Borges</h6></div>
-            <div class="item-image"><a onclick='openModal(10,"actriz")'><img src="./public/actrices/griseldasiciliani.webp" alt="foto de grisel dasiciliani"></a><h6 class="text-white text-center">Griselda Siciliani</h6></div>
-            <div class="item-image"><a onclick='openModal(11,"actriz")'><img src="./public/actrices/julietazylberberg.jpg" alt="foto de julieta zylberberg"></a><h6 class="text-white text-center">Julieta Zylberberg</h6></div>
-            <div class="item-image"><a onclick='openModal(12,"actriz")'><img src="./public/actrices/leonormanso.jpg" alt="foto de leonor manso"></a><h6 class="text-white text-center">Leonor Manso</h6></div>
-            <div class="item-image"><a onclick='openModal(13,"actriz")'><img src="./public/actrices/luisanalopilato.jpg" alt="foto de luisana lopilato"></a><h6 class="text-white text-center">Luisana Lopilato</h6></div>
-            <div class="item-image"><a onclick='openModal(14,"actriz")'><img src="./public/actrices/mechaortiz.jpg" alt="foto de mecha ortiz"></a><h6 class="text-white text-center">Mecha Ortiz</h6></div>
-            <div class="item-image"><a onclick='openModal(15,"actriz")'><img src="./public/actrices/mercedescarreras.jpg" alt="foto de mercedes carreras"></a><h6 class="text-white text-center">Mercedes Carreras</h6></div>
-            <div class="item-image"><a onclick='openModal(16,"actriz")'><img src="./public/actrices/mirthalegrand.jpg" alt="foto de mirtha legrand"></a><h6 class="text-white text-center">Mirtha Legrand</h6></div>
-            <div class="item-image"><a onclick='openModal(17,"actriz")'><img src="./public/actrices/monicavilla.jpg" alt="foto de monica villa"></a><h6 class="text-white text-center">Monica Villa</h6></div>
-            <div class="item-image"><a onclick='openModal(18,"actriz")'><img src="./public/actrices/nataliaoreiro.jpg" alt="foto de natalia oreiro"></a><h6 class="text-white text-center">Natalia Oreiro</h6></div>
-            <div class="item-image"><a onclick='openModal(19,"actriz")'><img src="./public/actrices/normaaleandro.jpg" alt="foto de norma aleandro"></a><h6 class="text-white text-center">Norma Aleandro</h6></div>
-            <div class="item-image"><a onclick='openModal(20,"actriz")'><img src="./public/actrices/soledadvillamil.jpg" alt="foto de soledad illamil"></a><h6 class="text-white text-center">Soledad Villamil</h6></div>
-          </div>
-
-          <h5 class="text-white ms-5 mt-5 py-2 mb-2 bg-dark  " id="actores" >Actores</h5>
-
-          <div class="container text-white ms-2 w-100 ms-lg-5 w-lg-50">
-            <p> El cine argentino ha sido cuna de grandes actores que han dejado una huella imborrable en la historia del cine. 
-              Desde figuras emblemáticas del cine clásico hasta talentos contemporáneos que nos cautivan con sus interpretaciones,
-               los actores argentinos han demostrado su capacidad para encarnar personajes memorables y conectar con las audiencias.
-              <br>
-              En esta sección, rendimos homenaje a algunos de los actores más destacados del cine argentino, resaltando sus contribuciones 
-              a la industria, su versatilidad y las películas que los han convertido en íconos.
-              <br><br>
-              Haz clic en las imagenenes para ver la informacion de cada actor.
-            </p>
-              
-          </div>
-
-
-         
-
-          <div class="wrapper">
-            <div class="item-image"><a onclick='openModal(1,"actor")'><img src="./public/actores/albertoolmedo.webp" alt=""></a><h6 class="text-white text-center">Alberto Olmedo</h6></div>
-            <div class="item-image"><a onclick='openModal(2,"actor")'><img src="./public/actores/chinodarin.jpg" alt=""></a><h6 class="text-white text-center">Chino Darin</h6></div>
-            <div class="item-image"><a onclick='openModal(3,"actor")'><img src="./public/actores/dadybrieva.jpg" alt=""></a><h6 class="text-white text-center">Dady Brieva</h6></div>
-            <div class="item-image"><a onclick='openModal(4,"actor")'><img src="./public/actores/diegoperetti.webp" alt=""></a><h6 class="text-white text-center">Diego Peretti</h6></div>
-            <div class="item-image"><a onclick='openModal(5,"actor")'><img src="./public/actores/enriquemuino.jpg" alt=""></a><h6 class="text-white text-center">Enrique Muiño</h6></div>
-            <div class="item-image"><a onclick='openModal(6,"actor")'><img src="./public/actores/ernestobianco.jpg" alt=""></a><h6 class="text-white text-center">Ernesto Bianco</h6></div>
-            <div class="item-image"><a onclick='openModal(7,"actor")'><img src="./public/actores/fernanmiras.jpg" alt=""></a><h6 class="text-white text-center">Fernan Miras</h6></div>
-            <div class="item-image"><a onclick='openModal(8,"actor")'><img src="./public/actores/gastonpauls.jpg" alt=""></a><h6 class="text-white text-center">Gaston Pauls</h6></div>
-            <div class="item-image"><a onclick='openModal(9,"actor")'><img src="./public/actores/guillermofrancella.webp" alt=""></a><h6 class="text-white text-center">Guillermo Francella</h6></div>
-            <div class="item-image"><a onclick='openModal(10,"actor")'><img src="./public/actores/hectoralterio.jpg" alt=""></a><h6 class="text-white text-center">Hector Alterio</h6></div>
-            <div class="item-image"><a onclick='openModal(11,"actor")'><img src="./public/actores/joaquinfurriel.webp" alt=""></a><h6 class="text-white text-center">Joaquin Furriel</h6></div>
-            <div class="item-image"><a onclick='openModal(12,"actor")'><img src="./public/actores/leonardosbaraglia.jpg" alt=""></a><h6 class="text-white text-center">Leonardo Sbaraglia</h6></div>
-            <div class="item-image"><a onclick='openModal(13,"actor")'><img src="./public/actores/luisbrandoni.jpg" alt=""></a><h6 class="text-white text-center">Luis Brandoni</h6></div>
-            <div class="item-image"><a onclick='openModal(14,"actor")'><img src="./public/actores/luissandrini.jpg" alt=""></a><h6 class="text-white text-center">Luis Sandrini</h6></div>
-            <div class="item-image"><a onclick='openModal(15,"actor")'><img src="./public/actores/nahuelperezbiscayart.webp" alt=""></a><h6 class="text-white text-center">Nahuel Perez Biscayart</h6></div>
-            <div class="item-image"><a onclick='openModal(16,"actor")'><img src="./public/actores/narcisoibáñezmenta.JPG" alt=""></a><h6 class="text-white text-center">Narciso Ibáñez Menta</h6></div>
-            <div class="item-image"><a onclick='openModal(17,"actor")'><img src="./public/actores/oscarferrigno.jpg" alt=""></a><h6 class="text-white text-center">Oscar Ferrigno</h6></div>
-            <div class="item-image"><a onclick='openModal(18,"actor")'><img src="./public/actores/oscarmartínez.webp" alt=""></a><h6 class="text-white text-center">Oscar Martínez</h6></div>
-            <div class="item-image"><a onclick='openModal(19,"actor")'><img src="./public/actores/pepearias.jpg" alt=""></a><h6 class="text-white text-center">Pepe Arias</h6></div>
-            <div class="item-image"><a onclick='openModal(20,"actor")'><img src="./public/actores/peterlanzani.jpg" alt=""></a><h6 class="text-white text-center">Peter Lanzani</h6></div>
-            <div class="item-image"><a onclick='openModal(21,"actor")'><img src="./public/actores/ricardobartis.jpg" alt=""></a><h6 class="text-white text-center">Ricardo Bartis</h6></div>
-            <div class="item-image"><a onclick='openModal(22,"actor")'><img src="./public/actores/ricardodarin.webp" alt=""></a><h6 class="text-white text-center">Ricardo Darin</h6></div>
-            <div class="item-image"><a onclick='openModal(23,"actor")'><img src="./public/actores/rodrigodelaserna.jpg" alt=""></a><h6 class="text-white text-center">Rodrigo de la Serna</h6></div>
-          </div>
-
-
-          <h5 class="text-white ms-5 mt-5 py-2 mb-2 bg-dark  " id="directores" >Directoras/es</h5>
-
-          <div class="container text-white ms-2 w-100 ms-lg-5 w-lg-50">
-            <p>Descubre el legado cinematográfico de los directores argentinos que han dejado una marca indeleble en la industria del cine.
-               Desde los visionarios pioneros que sentaron las bases del cine argentino hasta los innovadores contemporáneos que continúan
-                desafiando los límites del arte cinematográfico, explora la creatividad y la visión detrás de la cámara que ha dado forma 
-                a la rica tradición cinematográfica del país. Sumérgete en una selección de 
-              imágenes que capturan momentos clave de sus carreras y aprende sobre su influencia en el panorama del cine argentino.
-              <br><br>
-              Haz clic en las imagenenes para ver la informacion de cada director/a
-            </p>
-              
-          </div>
-
-        <div class="wrapper">
-          <div class="item-image"><a onclick='openModal(1,"director")'><img src="./public/directores/adolfoaristarain.jpg" alt="adolfoaristarain"></a><h6 class="text-white text-center">Adolfo Aristarain</h6></div>
-          <div class="item-image"><a onclick='openModal(2,"director")'><img src="./public/directores/anahiberneri.jpg" alt="anahiberneri"></a><h6 class="text-white text-center">Anahi Berneri</h6></div>
-          <div class="item-image"><a onclick='openModal(3,"director")'><img src="./public/directores/anapiterbarg.jpg" alt="anapiterbarg"></a><h6 class="text-white text-center">Ana Piterbarg</h6></div>
-          <div class="item-image"><a onclick='openModal(4,"director")'><img src="./public/directores/damianszifron.jpg" alt="damianszifron"></a><h6 class="text-white text-center">Damian Szifron</h6></div>
-          <div class="item-image"><a onclick='openModal(5,"director")'><img src="./public/directores/davidcronenberg.jpg" alt="davidcronenberg"></a><h6 class="text-white text-center">David Cronenberg</h6></div>
-          <div class="item-image"><a onclick='openModal(6,"director")'><img src="./public/directores/eliseosubiela.webp" alt="eliseosubiela"></a><h6 class="text-white text-center">Eliseo Subiela</h6></div>
-          <div class="item-image"><a onclick='openModal(7,"director")'><img src="./public/directores/gastonsolnicki.webp" alt="gastonsolnicki"></a><h6 class="text-white text-center">Gaston Solnicki</h6></div>
-          <div class="item-image"><a onclick='openModal(8,"director")'><img src="./public/directores/hectorbabenco.jpg" alt="hectorbabenco"></a><h6 class="text-white text-center">Hector Babenco</h6></div>
-          <div class="item-image"><a onclick='openModal(9,"director")'><img src="./public/directores/juancarlosdesanzo.jpg" alt="juancarlosdesanzo"></a><h6 class="text-white text-center">Juan Carlos Desanzo</h6></div>
-          <div class="item-image"><a onclick='openModal(10,"director")'><img src="./public/directores/juanjosecampanella.jpg" alt="juanjosecampanella"></a><h6 class="text-white text-center">Juan Jose Campanella</h6></div>
-          <div class="item-image"><a onclick='openModal(11,"director")'><img src="./public/directores/leonidaslamborghin.jpg" alt="leonidaslamborghin"></a><h6 class="text-white text-center">Leonidas Lamborghin</h6></div>
-          <div class="item-image"><a onclick='openModal(12,"director")'><img src="./public/directores/leopoldotorrenilsson.jpg" alt="leopoldotorrenilsson"></a><h6 class="text-white text-center">Leopoldo Torrenilsson</h6></div>
-          <div class="item-image"><a onclick='openModal(13,"director")'><img src="./public/directores/lucreciamartel.jpg" alt="lucreciamartel"></a><h6 class="text-white text-center">Lucrecia Martel</h6></div>
-          <div class="item-image"><a onclick='openModal(14,"director")'><img src="./public/directores/martinrejtman.webp" alt="martinrejtman"></a><h6 class="text-white text-center">Martin Rejtman</h6></div>
-          <div class="item-image"><a onclick='openModal(15,"director")'><img src="./public/directores/maríaluisabemberg.jpg" alt="maríaluisabemberg"></a><h6 class="text-white text-center">María Luisa Bemberg</h6></div>
-          <div class="item-image"><a onclick='openModal(16,"director")'><img src="./public/directores/pablotrapero.webp" alt="pablotrapero"></a><h6 class="text-white text-center">Pablo Trapero</h6></div>
-          <div class="item-image"><a onclick='openModal(17,"director")'><img src="./public/directores/pinosolanas.jpg" alt="pinosolanas"></a><h6 class="text-white text-center">Pino Solanas</h6></div>
-          <div class="item-image"><a onclick='openModal(18,"director")'><img src="./public/directores/sebastianborenzstein.webp" alt="sebastianborenzstein"></a><h6 class="text-white text-center">Sebastian Borenzstein</h6></div>
-        </div>
 
 
       </article> 
         
-        <h4 class="my-5 p-1 bg-light text-center text-md-start ps-md-3 ps-lg-5" id="clasica">Peliculas clasicas</h4>
-
-        <article>
-
-        <div class="container">
-          <div class="row justify-content-center">
-            <!-- ---------------------------- -->
-            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
-              <img src="./public/clasicas/lafuga.jpg" class="card-img-top" alt="lafuga">
-              <div class="card-body">
-                <h5 class="card-title">La fuga</h5>
-                <p class="card-text">Esta película de suspenso 
-                  psicológico narra la historia de un hombre que huye de la justicia tras cometer un 
-                  asesinato. Es considerada una de las obras maestras del cine argentino temprano.</p>
-              </div>
-              <ul class="list-group list-group-flush bg-secondary">
-                <li class="list-group-item bg-secondary text-white">Director: Leopoldo Torre Nilsson</li>
-                <li class="list-group-item bg-secondary text-white">Año: 1937</li>
-              </ul>
-              <div class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=psFFDTZ0YPc" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/La_fuga_(pel%C3%ADcula_de_1937)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
-              </div>
-            </div>
-            <!-- ---------------------------------------------------------------------------- -->
-            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
-              <img src="./public/clasicas/latregua.jpg" class="card-img-top" alt="latregua">
-              <div class="card-body">
-                <h5 class="card-title">La tregua</h5>
-                <p class="card-text">Basada en la novela homónima de Mario Benedetti, 
-                  esta película dramática narra la historia de un hombre que regresa 
-                  a su ciudad natal tras pasar varios años en un campo de concentración 
-                  durante la Segunda Guerra Mundial. Es una de las películas más aclamadas 
-                  del cine argentino y una obra maestra del cine latinoamericano</p>
-              </div>
-              <ul class="list-group list-group-flush bg-secondary">
-                <li class="list-group-item bg-secondary text-white">Director: Sergio Renán</li>
-                <li class="list-group-item bg-secondary text-white">Año: 1974</li>
-              </ul>
-              <div class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=zH7-iVQ1yKI" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/La_tregua_(pel%C3%ADcula_de_1974)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
-              </div>
-            </div>
-            <!-- ---------------------------------------------------------------------------- -->
-            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
-              <img src="./public/clasicas/lacasaesgrande.jpg" class="card-img-top" alt="lacasaesgrande">
-              <div class="card-body">
-                <h5 class="card-title">La casa grande</h5>
-                <p class="card-text">Un hombre soltero y trabajador que vive con su madre en una vieja casa familiar sueña con reunir a toda la familia. La película explora las relaciones familiares, la nostalgia y el paso del tiempo.</p>
-              </div>
-              <ul class="list-group list-group-flush bg-secondary">
-                <li class="list-group-item bg-secondary text-white">Director: Leo Fleider</li>
-                <li class="list-group-item bg-secondary text-white">Año: 1953</li>
-              </ul>
-              <div  class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=4YplflAsIlE" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/La_casa_grande_(pel%C3%ADcula_de_1953)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
-              </div>
-            </div>
-            <!-- ---------------------------------------------------------------------------- -->
-            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
-              <img src="./public/clasicas/camila.jpg" class="card-img-top" alt="camila">
-              <div class="card-body">
-                <h5 class="card-title">Camila</h5>
-                <p class="card-text">Esta película biográfica narra la historia de Camila Perri, una joven aristócrata 
-                  argentina que se enamora de un sacerdote durante la época de la Revolución de Mayo. Es una de las películas 
-                  más importantes del cine feminista argentino y una obra maestra del cine latinoamericano..</p>
-              </div>
-              <ul class="list-group list-group-flush bg-secondary">
-                <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
-                <li class="list-group-item bg-secondary text-white">Año: 1984</li>
-              </ul>
-              <div  class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
-              </div>
-            </div>
-            <!-- ---------------------------------------------------------------------------- -->
-            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
-              <img src="./public/clasicas/cronicadeunniniosolo.jpg" class="card-img-top" alt="camila">
-              <div class="card-body">
-                <h5 class="card-title">Crónica de un niño solo</h5>
-                <p class="card-text">Pablo, un niño de 10 años, vive con su madre viuda en un pequeño pueblo de la provincia de Buenos Aires. Su padre los abandonó cuando él era pequeño, y Pablo se refugia en su mundo de fantasía para escapar de la soledad y la tristeza.</p>
-              </div>
-              <ul class="list-group list-group-flush bg-secondary">
-                <li class="list-group-item bg-secondary text-white">Director:  Leonardo Favio</li>
-                <li class="list-group-item bg-secondary text-white">Año: 1965</li>
-              </ul>
-              <div  class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=Z2efc6kNHnU" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/Cr%C3%B3nica_de_un_ni%C3%B1o_solo" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
-              </div>
-            </div>
-            <!-- ---------------------------------------------------------------------------- -->
-            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
-              <img src="./public/clasicas/elsecretodesusojos.jpg" class="card-img-top" alt="camila">
-              <div class="card-body">
-                <h5 class="card-title">El Secreto de Sus Ojos</h5>
-                <p class="card-text">Benjamín Espósito, un jubilado legalmente ciego, escribe una novela sobre un crimen sin resolver que obsesionó a lo largo de su carrera. A medida que rememora el caso, se ve envuelto en una búsqueda de la verdad y la justicia.</p>
-              </div>
-              <ul class="list-group list-group-flush bg-secondary">
-                <li class="list-group-item bg-secondary text-white">Director: Juan José Campanella</li>
-                <li class="list-group-item bg-secondary text-white">Año: 2009</li>
-              </ul>
-              <div  class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=hKa8U-8vsfU" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/El_secreto_de_sus_ojos" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
-              </div>
-            </div>
-            <!-- ---------------------------------------------------------------------------- -->
-            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
-              <img src="./public/clasicas/relatossalvajes.jpg" class="card-img-top" alt="camila">
-              <div class="card-body">
-                <h5 class="card-title">Relatos Salvajes</h5>
-                <p class="card-text"> Seis historias independientes exploran el lado oscuro de la naturaleza humana, mostrando la violencia, la corrupción y la hipocresía que se esconden en la sociedad argentina.</p>
-              </div>
-              <ul class="list-group list-group-flush bg-secondary">
-                <li class="list-group-item bg-secondary text-white">Director: Damián Szifron</li>
-                <li class="list-group-item bg-secondary text-white">Año: 2015</li>
-              </ul>
-              <div  class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=3BxE9osMt5U" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/Relatos_salvajes" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
-              </div>
-            </div>
-            <!-- ---------------------------------------------------------------------------- -->
-            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
-              <img src="./public/clasicas/nuevereinas.jpg" class="card-img-top" alt="camila">
-              <div class="card-body">
-                <h5 class="card-title">Nueve Reinas</h5>
-                <p class="card-text">Juan, un estafador de poca monta, conoce a Marcos, un hombre misterioso con un plan para realizar un gran golpe. Juntos, se embarcan en una arriesgada aventura llena de engaños y traiciones.</p>
-              </div>
-              <ul class="list-group list-group-flush bg-secondary">
-                <li class="list-group-item bg-secondary text-white">Director: Fabián Bielinsky</li>
-                <li class="list-group-item bg-secondary text-white">Año: 2000</li>
-              </ul>
-              <div  class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=O2D3rXfNjWw" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/Nueve_reinas" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
-              </div>
-            </div>
-            <!-- ---------------------------------------------------------------------------- -->
-            <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
-              <img src="./public/clasicas/esperandoalacarroza.jpg" class="card-img-top" alt="camila">
-              <div class="card-body">
-                <h5 class="card-title">Esperando a la Carroza</h5>
-                <p class="card-text">La familia Musicelli está reunida para celebrar la Navidad cuando reciben la noticia de que Laura, una de las hermanas, ha desaparecido. La búsqueda de Laura se convierte en una comedia caótica y llena de personajes excéntricos.</p>
-              </div>
-              <ul class="list-group list-group-flush bg-secondary">
-                <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
-                <li class="list-group-item bg-secondary text-white">Año: 1985</li>
-              </ul>
-              <div  class="card-body text-center bg-secondary">
-                <a class="mx-4" href="https://www.youtube.com/watch?v=xqYPyvbZk6I" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
-                <a class="mx-4" href="https://es.wikipedia.org/wiki/Esperando_la_carroza_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
-              </div>
-            </div>
-            <!-- ---------------------------------------------------------------------------- -->
-            
-
-          </div>
-        </div>  
-      </article>
-
+       
       <div class="my-5 py-3 bg-light text-center text-md-start ps-md-3 ps-lg-5" id="inicio"></div>
 
 
