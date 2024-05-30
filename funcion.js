@@ -1,20 +1,20 @@
-let url_actores = "./actores.json"
+// let url_actores = "./actores.json"
 
-const getActores = async ()=>{
-    try {
-        const response = await fetch(url_actores)
-        if(response.status != 200) throw new error("No encontrado")
+// const getActores = async ()=>{
+//     try {
+//         const response = await fetch(url_actores)
+//         if(response.status != 200) throw new error("No encontrado")
 
-        const actores = await response.json()
+//         const actores = await response.json()
        
-        console.log(actores)
+//         console.log(actores)
     
-    } catch (error) {
-        console.error(error)
-    }
-}
+//     } catch (error) {
+//         console.error(error)
+//     }
+// }
 
-getActores()
+// getActores()
 
 // function navegar(direccion){
 //     const botonMenu = document.querySelector(".navbar-toggler") 
