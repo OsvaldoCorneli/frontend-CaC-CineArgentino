@@ -1,4 +1,4 @@
-const url_actrices = "/public/datos/actrices.json"
+const url_actrices = "./public/datos/actrices.json"
 let actrices; 
 const getActrices =  async ()=>{
 
@@ -11,6 +11,7 @@ const getActrices =  async ()=>{
 
 async function htmlArmado(){ 
     actrices = await getActrices()
+    console.log("actrices", actrices)
     const wraper = document.querySelector(".wrapper")
 
     actrices.forEach((actriz)=>{
