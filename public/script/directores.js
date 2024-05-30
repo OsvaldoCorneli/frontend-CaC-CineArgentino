@@ -1,8 +1,10 @@
-const url_actrices = "./public/datos/actrices.json"
-let actrices; 
-const getActrices =  async ()=>{
+const url_directores = "./public/datos/directores.json"
+let directores; 
 
-    const response = await fetch(url_actrices)
+
+const getDirectores =  async ()=>{
+
+    const response = await fetch(url_directores)
     const data = await response.json()
 
     return data
@@ -10,16 +12,18 @@ const getActrices =  async ()=>{
 }
 
 async function htmlArmado(){ 
-    actrices = await getActrices()
+
+    directores = await getDirectores()
   
     const wraper = document.querySelector(".wrapper")
 
-    actrices.forEach((actriz)=>{
+    directores.forEach((director)=>{
+        const alt1 = `foto de ${director.name}`
         const divs = document.createElement("div")
         divs.classList.add("item-image")
         
         divs.innerHTML = `
-        <a onclick='popUpActriz(${actriz.id})'><img src=${actriz.image} alt="foto de ${actriz.name}"></a><h6 class="text-white text-center">${actriz.name}</h6>
+        <a onclick='popUpDirectores(${director.id})'><img src=${director.image} alt=${alt1}></a><h6 class="text-white text-center">${director.name}</h6>
         `
     
         wraper.appendChild(divs)
@@ -31,11 +35,11 @@ async function htmlArmado(){
 
 htmlArmado()
 
-function popUpActriz(id){
-    
+function popUpDirectores(id){
+ 
     const boton = document.querySelector("#botonModals")
     
-            actrices.forEach((element)=>{
+            directores.forEach((element)=>{
             if(element.id == id){
                     document.querySelector("#exampleModalLabel").textContent = element.name
                     document.querySelector(".modal-body").innerText = element.description

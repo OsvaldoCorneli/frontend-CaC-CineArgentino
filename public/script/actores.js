@@ -17,12 +17,12 @@ async function htmlArmado(){
   
     const wraper = document.querySelector(".wrapper")
 
-    actores.forEach((actriz)=>{
+    actores.forEach((actor)=>{
         const divs = document.createElement("div")
         divs.classList.add("item-image")
         
         divs.innerHTML = `
-        <a onclick='popUpActor(${actriz.id})'><img src=${actriz.image} alt="foto de Andrea del foto"></a><h6 class="text-white text-center">${actriz.name}</h6>
+        <a onclick='popUpActor(${actor.id})'><img src=${actor.image} alt="${actor.name}"></a><h6 class="text-white text-center">${actor.name}</h6>
         `
     
         wraper.appendChild(divs)
