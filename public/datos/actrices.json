@@ -1,0 +1,286 @@
+[
+    {
+        "id": 1,
+        "name": "Andrea Del Boca",
+        "description": "Conocida como \"la niña bonita del cine nacional\", Andrea Del Boca ha cautivado a las audiencias desde su debut infantil en \"El diario de Ana Frank\" (1969). Su extensa carrera abarca películas, telenovelas y series, consolidándola como una figura emblemática del cine y la televisión argentina. Entre sus trabajos más reconocidos se encuentran \"Celeste\" (1991-1994), \"Culpable\" (1996) y \"Rizzoli & Isles\" (2010-2013).",
+        "wikilink": "https://es.wikipedia.org/wiki/Andrea_del_Boca",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Andrea_Del_Boca.jpg/800px-Andrea_Del_Boca.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Norma Aleandro",
+        "description": "Norma Aleandro es una de las actrices más respetadas de Argentina. Ha trabajado en cine, teatro y televisión, y es conocida por su papel en la película ganadora del Oscar \"La historia oficial\" (1985). Su carrera internacional incluye trabajos en Hollywood, y ha recibido numerosos premios a lo largo de su trayectoria.",
+        "wikilink": "https://es.wikipedia.org/wiki/Norma_Aleandro",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Norma_Aleandro_-_Festival_Internacional_de_Cine_de_Mar_del_Plata_%28cropped%29.jpg/800px-Norma_Aleandro_-_Festival_Internacional_de_Cine_de_Mar_del_Plata_%28cropped%29.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Graciela Borges",
+        "description": "Graciela Borges es una destacada actriz argentina con una carrera que abarca más de cinco décadas. Ha protagonizado películas clásicas del cine argentino como \"Crónica de una señora\" (1971) y \"El secreto de sus ojos\" (2009). Su elegancia y talento la han convertido en un ícono del cine nacional.",
+        "wikilink": "https://es.wikipedia.org/wiki/Graciela_Borges",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Graciela_Borges_en_1961_%282%29.jpg"
+    },
+    {
+        "id": 4,
+        "name": "China Zorrilla",
+        "description": "China Zorrilla fue una actriz uruguaya-argentina reconocida por su versatilidad en teatro, cine y televisión. Su carrera incluye destacadas participaciones en películas como \"Esperando la carroza\" (1985) y \"Elsa y Fred\" (2005). Su legado sigue vivo en la memoria del público argentino.",
+        "wikilink": "https://es.wikipedia.org/wiki/China_Zorrilla",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/China_Zorrilla_Uruguayan_Actor.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Soledad Villamil",
+        "description": "Soledad Villamil es una actriz y cantante argentina, reconocida por su actuación en la película ganadora del Oscar \"El secreto de sus ojos\" (2009). Su carrera incluye tanto cine como televisión y música, destacándose por su talento multifacético y su presencia en la escena artística argentina.",
+        "wikilink": "https://es.wikipedia.org/wiki/Soledad_Villamil",
+        "image": "https://pics.filmaffinity.com/012810416851145-nm_200.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Luisana Lopilato",
+        "description": "Luisana Lopilato es una actriz y modelo argentina, conocida por sus roles en telenovelas como \"Rebelde Way\" (2002-2003) y películas como \"El secreto de sus ojos\" (2009). Su belleza y talento la han convertido en una figura destacada en la industria del entretenimiento.",
+        "wikilink": "https://es.wikipedia.org/wiki/Luisana_Lopilato",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Luisana_Lopilato_2014.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Valeria Bertuccelli",
+        "description": "Valeria Bertuccelli es una reconocida actriz argentina, famosa por su versatilidad y talento. Ha participado en numerosas películas y obras de teatro, y es conocida por su papel en la exitosa película \"La Reina del Miedo\" (2018). Además de su trabajo en cine, ha incursionado en la televisión y la música.",
+        "wikilink": "https://es.wikipedia.org/wiki/Valeria_Bertuccelli",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Valeria_Bertuccelli.jpg/800px-Valeria_Bertuccelli.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Natalia Oreiro",
+        "description": "Natalia Oreiro es una actriz, cantante y modelo uruguaya-argentina, reconocida por su carisma y talento. Saltó a la fama por su papel en la exitosa telenovela \"Muñeca Brava\" (1998-1999) y desde entonces ha protagonizado numerosas películas y series de televisión. Además de su carrera en el entretenimiento, es una reconocida activista social.",
+        "wikilink": "https://es.wikipedia.org/wiki/Natalia_Oreiro",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Press_conference_of_Natalia_Oreiro_%282018-06-05%29_07_%28cropped%29.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Mercedes Morán",
+        "description": "Mercedes Morán es una destacada actriz argentina, conocida por su versatilidad y talento en cine, teatro y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Ha recibido múltiples premios y reconocimientos a lo largo de su carrera.",
+        "wikilink": "https://es.wikipedia.org/wiki/Mercedes_Morán",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Mercedes_Mor%C3%A1n_%28cropped%29.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Carla Quevedo",
+        "description": "Carla Quevedo es una actriz argentina, reconocida por su talento y versatilidad en cine y televisión. Saltó a la fama por su papel en la película \"El secreto de sus ojos\" (2009) y desde entonces ha participado en numerosas producciones tanto nacionales como internacionales. Además de su carrera como actriz, es una reconocida modelo.",
+        "wikilink": "https://es.wikipedia.org/wiki/Carla_Quevedo",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Carla_Quevedo_%28close-up%29.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Cecilia Roth",
+        "description": "Cecilia Roth es una actriz argentina-española, conocida por su talento y versatilidad en cine, teatro y televisión. Ha participado en numerosas películas aclamadas por la crítica, incluyendo \"Todo sobre mi madre\" (1999), por la cual recibió múltiples premios. Su larga y exitosa carrera la ha convertido en una de las actrices más respetadas de la industria cinematográfica.",
+        "wikilink": "https://es.wikipedia.org/wiki/Cecilia_Roth",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cecilia_Roth_-_Premios_F%C3%A9nix_2017.jpg/800px-Cecilia_Roth_-_Premios_F%C3%A9nix_2017.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Eva Duarte",
+        "description": "Eva Duarte, conocida como Evita, fue una actriz y política argentina que se convirtió en una figura icónica en la historia del país. Su papel en la política y su dedicación a los derechos sociales la han convertido en una figura venerada por muchos argentinos. Su vida ha sido tema de libros, películas y obras de teatro.",
+        "wikilink": "https://es.wikipedia.org/wiki/Eva_Per%C3%B3n",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Portrait_of_Argentine_actress_Eva_Duarte.jpg/220px-Portrait_of_Argentine_actress_Eva_Duarte.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Mirtha Legrand",
+        "description": "Mirtha Legrand es una actriz y presentadora de televisión argentina, reconocida por su longeva carrera en el medio. Es una figura destacada en la televisión argentina desde la década de 1960, y su programa de entrevistas, \"Almorzando con Mirtha Legrand\", es uno de los más populares y longevos de la televisión argentina.",
+        "wikilink": "https://es.wikipedia.org/wiki/Mirtha_Legrand",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mirtha_Legrand_2013.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Elsa Daniel",
+        "description": "Elsa Daniel es una actriz argentina, conocida por su trabajo en el cine argentino en la década de 1950 y 1960. Ha protagonizado varias películas clásicas del cine argentino, como \"Pájaros de cristal\" (1955) y \"La caída\" (1959). Su talento y carisma la convirtieron en una de las actrices más destacadas de su generación.",
+        "wikilink": "https://es.wikipedia.org/wiki/Elsa_Daniel",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Elsa_Daniel.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Bárbara Lennie",
+        "description": "Bárbara Lennie es una actriz argentina-española, conocida por su talento y versatilidad en cine y teatro. Ha participado en numerosas películas aclamadas por la crítica, incluyendo \"Magical Girl\" (2014) y \"El niño\" (2014). Su trabajo la ha hecho merecedora de varios premios y nominaciones.",
+        "wikilink": "https://es.wikipedia.org/wiki/B%C3%A1rbara_Lennie",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/B%C3%A1rbara_Lennie_at_Premios_Goya_2017_%28cropped%29.jpg/800px-B%C3%A1rbara_Lennie_at_Premios_Goya_2017_%28cropped%29.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Catalina Sandino Moreno",
+        "description": "Catalina Sandino Moreno es una actriz colombiana-argentina, reconocida por su talento y versatilidad en cine y televisión. Su actuación en la película \"María llena eres de gracia\" (2004) le valió una nominación al Premio Óscar. Ha participado en numerosas producciones internacionales y es admirada por su capacidad para dar vida a diversos personajes.",
+        "wikilink": "https://es.wikipedia.org/wiki/Catalina_Sandino_Moreno",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Catalina_Sandino_Moreno_at_the_61st_Cannes_Film_Festival%2C_May_2008.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Julieta Díaz",
+        "description": "Julieta Díaz es una actriz argentina, reconocida por su talento y versatilidad en cine, teatro y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más destacadas de su generación.",
+        "wikilink": "https://es.wikipedia.org/wiki/Julieta_D%C3%ADaz",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Julieta_D%C3%ADaz_-_Presentaci%C3%B3n_Coraz%C3%B3n_de_Le%C3%B3n.jpg/220px-Julieta_D%C3%ADaz_-_Presentaci%C3%B3n_Coraz%C3%B3n_de_Le%C3%B3n.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Leticia Brédice",
+        "description": "Leticia Brédice es una actriz argentina, conocida por su talento y versatilidad en cine y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Ha recibido múltiples premios y reconocimientos a lo largo de su carrera.",
+        "wikilink": "https://es.wikipedia.org/wiki/Leticia_Br%C3%A9dice",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Leticia_Br%C3%A9dice_%28cropped%29.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Nacha Guevara",
+        "description": "Nacha Guevara es una actriz y cantante argentina, reconocida por su talento y carisma en el escenario. Ha participado en numerosas obras de teatro, musicales y programas de televisión, convirtiéndose en una figura emblemática del entretenimiento argentino. Su carrera abarca más de cinco décadas y sigue siendo una de las artistas más queridas del país.",
+        "wikilink": "https://es.wikipedia.org/wiki/Nacha_Guevara",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/MX_MM_NACHA_GUEVARA_%28cropped%29.jpg/800px-MX_MM_NACHA_GUEVARA_%28cropped%29.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Julieta Cardinali",
+        "description": "Julieta Cardinali es una actriz argentina, conocida por su talento y versatilidad en cine y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más destacadas de su generación.",
+        "wikilink": "https://es.wikipedia.org/wiki/Julieta_Cardinali",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Julieta_Cardinali.jpg"
+    },
+        {
+            "id": 21,
+            "name": "Emilia Attías",
+            "description": "Emilia Attías es una actriz y modelo argentina, reconocida por su talento y belleza. Ha participado en numerosas telenovelas y series de televisión, destacándose por su carisma en pantalla. Además de su trabajo como actriz, también ha incursionado en el mundo de la moda y la música.",
+            "wikilink": "https://es.wikipedia.org/wiki/Emilia_Att%C3%ADas",
+            "image": ""
+        },
+        {
+            "id": 22,
+            "name": "Adriana Salonia",
+            "description": "Adriana Salonia es una actriz argentina, conocida por su versatilidad y talento en cine y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más reconocidas y queridas del país.",
+            "wikilink": "https://es.wikipedia.org/wiki/Adriana_Salonia",
+            "image": ""
+        },
+        {
+            "id": 23,
+            "name": "Dolores Fonzi",
+            "description": "Dolores Fonzi es una actriz argentina, conocida por su talento y versatilidad en cine, teatro y televisión. Ha participado en numerosas películas aclamadas por la crítica, incluyendo \"El aura\" (2005) y \"Paulina\" (2015). Su trabajo la ha hecho merecedora de varios premios y nominaciones.",
+            "wikilink": "https://es.wikipedia.org/wiki/Dolores_Fonzi",
+            "image": ""
+        },
+        {
+            "id": 24,
+            "name": "Lali Espósito",
+            "description": "Lali Espósito es una actriz, cantante y modelo argentina, reconocida por su talento y carisma en el escenario. Saltó a la fama por su papel en la exitosa telenovela \"Casi Ángeles\" (2007-2010) y desde entonces ha consolidado una exitosa carrera en la música y el cine. Es una de las artistas más populares de Argentina.",
+            "wikilink": "https://es.wikipedia.org/wiki/Lali_Esp%C3%B3sito",
+            "image": ""
+        },
+        {
+            "id": 25,
+            "name": "Natalia Lobo",
+            "description": "Natalia Lobo es una actriz argentina, conocida por su talento y versatilidad en cine, teatro y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más destacadas de su generación.",
+            "wikilink": "https://es.wikipedia.org/wiki/Natalia_Lobo",
+            "image": ""
+        },
+        {
+            "id": 26,
+            "name": "Calu Rivero",
+            "description": "Calu Rivero es una actriz y modelo argentina, reconocida por su talento y belleza. Ha participado en numerosas películas y series de televisión, destacándose por su carisma en pantalla. Además de su trabajo como actriz, también ha incursionado en el mundo de la moda y el diseño.",
+            "wikilink": "https://es.wikipedia.org/wiki/Calu_Rivero",
+            "image": ""
+        },
+        {
+            "id": 27,
+            "name": "Carla Peterson",
+            "description": "Carla Peterson es una actriz argentina, conocida por su versatilidad y talento en cine, teatro y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más reconocidas y queridas del país.",
+            "wikilink": "https://es.wikipedia.org/wiki/Carla_Peterson",
+            "image": ""
+        },
+        {
+            "id": 28,
+            "name": "Paola Krum",
+            "description": "Paola Krum es una actriz argentina, conocida por su talento y versatilidad en cine, teatro y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más reconocidas y respetadas de la industria.",
+            "wikilink": "https://es.wikipedia.org/wiki/Paola_Krum",
+            "image": ""
+        },
+        {
+            "id": 29,
+            "name": "Viviana Saccone",
+            "description": "Viviana Saccone es una actriz argentina, conocida por su talento y versatilidad en cine, teatro y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más queridas y admiradas del país.",
+            "wikilink": "https://es.wikipedia.org/wiki/Viviana_Saccone",
+            "image": ""
+        },
+        {
+            "id": 30,
+            "name": "Araceli González",
+            "description": "Araceli González es una actriz y modelo argentina, reconocida por su talento y belleza. Ha participado en numerosas películas y series de televisión, destacándose por su carisma en pantalla. Además de su trabajo como actriz, también ha incursionado en el mundo de la moda y el diseño.",
+            "wikilink": "https://es.wikipedia.org/wiki/Araceli_Gonz%C3%A1lez",
+            "image": ""
+        },
+            {
+                "id": 31,
+                "name": "Carolina Ardohain",
+                "description": "Carolina Ardohain, más conocida como Pampita, es una modelo, actriz y conductora argentina, reconocida por su carrera en el mundo del modelaje y la televisión. Ha participado en numerosos programas de televisión y películas, además de ser una de las modelos más reconocidas y exitosas del país.",
+                "wikilink": "https://es.wikipedia.org/wiki/Carolina_Ardohain",
+                "image": ""
+            },
+            {
+                "id": 32,
+                "name": "Natalia Natalia Oreiro",
+                "description": "Natalia Oreiro es una actriz, cantante y modelo uruguaya-argentina, reconocida por su carisma y talento. Saltó a la fama por su papel en la exitosa telenovela \"Muñeca Brava\" (1998-1999) y desde entonces ha protagonizado numerosas películas y series de televisión. Además de su carrera en el entretenimiento, es una reconocida activista social.",
+                "wikilink": "https://es.wikipedia.org/wiki/Natalia_Oreiro",
+                "image": ""
+            },
+            {
+                "id": 33,
+                "name": "Liz Solari",
+                "description": "Liz Solari es una actriz y modelo argentina, conocida por su talento y belleza. Ha participado en numerosas películas y series de televisión, destacándose por su carisma en pantalla. Además de su trabajo como actriz, también ha incursionado en el mundo del diseño y la filantropía.",
+                "wikilink": "https://es.wikipedia.org/wiki/Liz_Solari",
+                "image": ""
+            },
+            {
+                "id": 34,
+                "name": "Delfina Chaves",
+                "description": "Delfina Chaves es una actriz argentina, conocida por su talento y versatilidad en cine y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices jóvenes más prometedoras del país.",
+                "wikilink": "https://es.wikipedia.org/wiki/Delfina_Chaves",
+                "image": ""
+            },
+            {
+                "id": 35,
+                "name": "Eugenia Suárez",
+                "description": "Eugenia Suárez es una actriz y cantante argentina, conocida por su talento y belleza. Ha participado en numerosas películas y series de televisión, destacándose por su carisma en pantalla. Además de su trabajo como actriz, también ha incursionado en la industria de la música.",
+                "wikilink": "https://es.wikipedia.org/wiki/Eugenia_Su%C3%A1rez",
+                "image": ""
+            },
+            {
+                "id": 36,
+                "name": "Griselda Siciliani",
+                "description": "Griselda Siciliani es una actriz argentina, conocida por su talento y versatilidad en cine, teatro y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más reconocidas y respetadas del país.",
+                "wikilink": "https://es.wikipedia.org/wiki/Griselda_Siciliani",
+                "image": ""
+            },
+            {
+                "id": 37,
+                "name": "Celeste Cid",
+                "description": "Celeste Cid es una actriz argentina, conocida por su talento y versatilidad en cine, teatro y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más queridas y admiradas del país.",
+                "wikilink": "https://es.wikipedia.org/wiki/Celeste_Cid",
+                "image": ""
+            },
+            {
+                "id": 38,
+                "name": "Romina Gaetani",
+                "description": "Romina Gaetani es una actriz argentina, conocida por su talento y versatilidad en cine, teatro y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más reconocidas y respetadas del país.",
+                "wikilink": "https://es.wikipedia.org/wiki/Romina_Gaetani",
+                "image": ""
+            },
+            {
+                "id": 39,
+                "name": "Geraldine Neumann",
+                "description": "Geraldine Neumann es una actriz y modelo argentina, conocida por su talento y belleza. Ha participado en numerosas películas y series de televisión, destacándose por su carisma en pantalla. Además de su trabajo como actriz, también ha incursionado en el mundo de la moda y el diseño.",
+                "wikilink": "https://es.wikipedia.org/wiki/Geraldine_Neumann",
+                "image": ""
+            },
+            {
+                "id": 40,
+                "name": "Victoria Onetto",
+                "description": "Victoria Onetto es una actriz argentina, conocida por su talento y versatilidad en cine, teatro y televisión. Ha participado en numerosas películas y series de televisión, destacándose por su capacidad para interpretar una amplia variedad de personajes. Es una de las actrices más queridas y admiradas del país.",
+                "wikilink": "https://es.wikipedia.org/wiki/Victoria_Onetto",
+                "image": ""
+            }
+        ]
+        
+
+    
+    

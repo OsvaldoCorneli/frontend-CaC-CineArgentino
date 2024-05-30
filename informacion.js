@@ -4,7 +4,8 @@ function openModal(id, genero){
             id: 1,
             name: "Andrea Del Boca",
             description: 'Conocida como "la niña bonita del cine nacional", Andrea Del Boca ha cautivado a las audiencias desde su debut infantil en "El diario de Ana Frank" (1969). Su extensa carrera abarca películas, telenovelas y series, consolidándola como una figura emblemática del cine y la televisión argentina. Entre sus trabajos más reconocidos se encuentran "Celeste" (1991-1994), "Culpable" (1996) y "Rizzoli & Isles" (2010-2013).',
-            wikilink: "https://es.wikipedia.org/wiki/Andrea_del_Boca"
+            wikilink: "https://es.wikipedia.org/wiki/Andrea_del_Boca",
+            image: ""
         },
         {
             id: 2,
