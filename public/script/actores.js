@@ -1,8 +1,10 @@
-const url_actrices = "./public/datos/actrices.json"
-let actrices; 
-const getActrices =  async ()=>{
+const url_actores = "./public/datos/actores.json"
+let actores; 
 
-    const response = await fetch(url_actrices)
+
+const getActores =  async ()=>{
+
+    const response = await fetch(url_actores)
     const data = await response.json()
 
     return data
@@ -10,16 +12,17 @@ const getActrices =  async ()=>{
 }
 
 async function htmlArmado(){ 
-    actrices = await getActrices()
+
+    actores = await getActores()
   
     const wraper = document.querySelector(".wrapper")
 
-    actrices.forEach((actriz)=>{
+    actores.forEach((actriz)=>{
         const divs = document.createElement("div")
         divs.classList.add("item-image")
         
         divs.innerHTML = `
-        <a onclick='popUpActriz(${actriz.id})'><img src=${actriz.image} alt="foto de Andrea del foto"></a><h6 class="text-white text-center">${actriz.name}</h6>
+        <a onclick='popUpActor(${actriz.id})'><img src=${actriz.image} alt="foto de Andrea del foto"></a><h6 class="text-white text-center">${actriz.name}</h6>
         `
     
         wraper.appendChild(divs)
@@ -31,11 +34,11 @@ async function htmlArmado(){
 
 htmlArmado()
 
-function popUpActriz(id){
-    
+function popUpActor(id){
+ 
     const boton = document.querySelector("#botonModals")
     
-            actrices.forEach((element)=>{
+            actores.forEach((element)=>{
             if(element.id == id){
                     document.querySelector("#exampleModalLabel").textContent = element.name
                     document.querySelector(".modal-body").innerText = element.description
