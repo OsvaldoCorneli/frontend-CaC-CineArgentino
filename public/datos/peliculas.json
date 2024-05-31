@@ -419,139 +419,93 @@
     "trailer": "https://www.youtube.com/watch?v=qLbRl9zLYVQ",
     "wikipedia": "https://es.wikipedia.org/wiki/M%C3%ADa_(pel%C3%ADcula_de_2022)"
   },
-  {
-    "id": 36,
-    "title": "El último tango en Buenos Aires",
-    "estreno": "2024-03-15",
-    "duracion": "120 minutos",
-    "sinopsis": "Un joven bailarín de tango lucha por alcanzar la fama en el competitivo mundo del baile en Buenos Aires, enfrentándose a desafíos personales y profesionales en su camino hacia el éxito.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Juan Pablo Di Pace, Carla Quevedo, Juan Minujín",
-    "director": "María Valdez",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-  },
-  {
-    "id": 37,
-    "title": "Cazadores de mitos",
-    "estreno": "2024-04-25",
-    "duracion": "110 minutos",
-    "sinopsis": "Un grupo de jóvenes aventureros se embarca en una expedición para descubrir la verdad detrás de antiguas leyendas y mitos argentinos, enfrentándose a peligros y misterios en su búsqueda.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Lali Espósito, Peter Lanzani, Chino Darín",
-    "director": "Gabriel Mendoza",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-  },
-  {
-    "id": 38,
-    "title": "Almas en la oscuridad",
-    "estreno": "2024-05-12",
-    "duracion": "105 minutos",
-    "sinopsis": "En una remota ciudad de montaña en Argentina, un grupo de personas se encuentra atrapado en un hotel durante una tormenta de nieve, donde descubren que cada uno guarda oscuros secretos.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Gastón Pauls, Julieta Zylberberg, Alberto Ammann",
-    "director": "Lucía González",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-  },
-  {
-    "id": 39,
-    "title": "La sombra del pasado",
-    "estreno": "2024-06-18",
-    "duracion": "115 minutos",
-    "sinopsis": "Un detective retirado se ve obligado a regresar al servicio cuando un viejo caso sin resolver vuelve a resurgir, desenterrando secretos enterrados durante años y poniendo en peligro a quienes lo rodean.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Ricardo Darín, Inés Estévez, Leonardo Sbaraglia",
-    "director": "Santiago Gómez",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-  },
-  {
-    "id": 40,
-    "title": "Despertar en el sur",
-    "estreno": "2024-07-22",
-    "duracion": "125 minutos",
-    "sinopsis": "Una joven periodista viaja al sur de Argentina para investigar una serie de misteriosas desapariciones en una pequeña comunidad, donde descubre una red de corrupción y secretos enterrados en el pasado.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Érica Rivas, Juan Minujín, Luis Brandoni",
-    "director": "Martín Sánchez",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-  },
-  {
-    "id": 41,
-    "title": "El legado perdido",
-    "estreno": "2024-08-10",
-    "duracion": "112 minutos",
-    "sinopsis": "Un arqueólogo argentino se embarca en una emocionante aventura para encontrar un antiguo artefacto perdido, enfrentándose a rivales despiadados y peligros mortales en su búsqueda del tesoro.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Joaquín Furriel, Mercedes Morán, Luis Machín",
-    "director": "Marcelo Sánchez",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-  },
-  {
-    "id": 42,
-    "title": "Entre sombras",
-    "estreno": "2024-09-05",
-    "duracion": "118 minutos",
-    "sinopsis": "Una joven heredera argentina se ve envuelta en una trama de intriga y traición cuando descubre que su familia está vinculada a un oscuro pasado marcado por crímenes y secretos.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Dolores Fonzi, Esteban Lamothe, Julieta Zylberberg",
-    "director": "Ignacio Martínez",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-  },
-  {
-    "id": 43,
-    "title": "La promesa de la montaña",
-    "estreno": "2024-10-20",
-    "duracion": "121 minutos",
-    "sinopsis": "Un grupo de alpinistas argentinos se enfrenta a una peligrosa expedición para escalar una montaña imponente, donde descubren que la verdadera prueba no es la naturaleza, sino ellos mismos.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Nicolás Furtado, Ailín Salas, Juan Minujín",
-    "director": "Lucas Gutiérrez",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-  },
-  {
-    "id": 44,
-    "title": "Bajo la piel del lobo",
-    "estreno": "2024-11-15",
-    "duracion": "114 minutos",
-    "sinopsis": "En una región remota de la Patagonia argentina, un cazador solitario se enfrenta a la soledad y la naturaleza salvaje mientras lucha por sobrevivir en un entorno hostil.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Luis Brandoni, Martina Gusmán, Daniel Fanego",
-    "director": "Sofía López",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-  },
-  {
-    "id": 45,
-    "title": "La promesa del desierto",
-    "estreno": "2024-12-10",
-    "duracion": "120 minutos",
-    "sinopsis": "En la vastedad del desierto argentino, un grupo de buscadores de tesoros se embarca en una aventura para encontrar una legendaria ciudad perdida, enfrentándose a peligros y rivalidades mientras persiguen sus sueños.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Ricardo Darín, Érica Rivas, Leonardo Sbaraglia",
-    "director": "Pablo Gómez",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-},
-{
-    "id": 46,
-    "title": "Reflejos de la ciudad",
-    "estreno": "2024-11-05",
-    "duracion": "115 minutos",
-    "sinopsis": "En el bullicioso corazón de Buenos Aires, una serie de historias entrelazadas muestran la vida cotidiana de diversos personajes urbanos, revelando la belleza y complejidad de la vida en la gran ciudad.",
-    "imagen": "url_de_la_imagen",
-    "elenco": "Julieta Díaz, Joaquín Furriel, Leticia Brédice",
-    "director": "Marcelo López",
-    "trailer": "url_del_trailer",
-    "wikipedia": "url_de_wikipedia"
-}]
-
+    {
+      "id": 36,
+      "title": "El Juicio",
+      "estreno": "2023-09-29",
+      "duracion": "130 minutos",
+      "sinopsis": "Un grupo de ex combatientes de Malvinas se reúne para revivir sus experiencias y buscar justicia por los crímenes cometidos durante la guerra.",
+      "imagen": "https://pics.filmaffinity.com/el_juicio-391136016-large.jpg",
+      "elenco": "Héctor Alterio, Oscar Martínez, Pepe Soriano",
+      "director": "Alejandro Chomsky",
+      "trailer": "https://www.youtube.com/watch?v=w4t19z-7uGg",
+      "wikipedia": "https://es.wikipedia.org/wiki/El_Juicio_(pel%C3%ADcula_de_2023)"
+    },
+    {
+      "id": 37,
+      "title": "Puan",
+      "estreno": "2023-10-13",
+      "duracion": "90 minutos",
+      "sinopsis": "Un joven regresa a su pueblo natal después de varios años para reencontrarse con su familia y enfrentar los fantasmas del pasado.",
+      "imagen": "https://pics.filmaffinity.com/Puan-563296214-large.jpg",
+      "elenco": "Agustín Bataller, María Alché, Horacio Zeballos",
+      "director": "María Alché y Benjamín Naishtat",
+      "trailer": "https://www.youtube.com/watch?v=y12z3456789",
+      "wikipedia": "https://es.wikipedia.org/wiki/Puan_(pel%C3%ADcula)"
+    },
+    {
+      "id": 38,
+      "title": "La Extranjera",
+      "estreno": "2023-11-10",
+      "duracion": "115 minutos",
+      "sinopsis": "Una mujer argentina viaja a Uruguay para reencontrarse con su hija después de muchos años, pero su llegada despierta viejos rencores y secretos familiares.",
+      "imagen": "https://pics.filmaffinity.com/la_extranjera-745200400-large.jpg",
+      "elenco": "Laetitia Bréson, Rafael Spregelburd, Bárbara Sukowa",
+      "director": "Alejandro Amenábar",
+      "trailer": "https://www.youtube.com/watch?v=0987654321",
+      "wikipedia": "https://es.wikipedia.org/wiki/La_Extranjera_(pel%C3%ADcula)"
+    },
+      {
+        "id": 40,
+        "title": "Reas",
+        "estreno": "2024-03-08",
+        "duracion": "95 minutos",
+        "sinopsis": "Un documental que explora las historias de vida de las mujeres trans privadas de libertad en Argentina, y su lucha por la igualdad y el respeto de sus derechos.",
+        "imagen": "https://pics.filmaffinity.com/reas-741219035-mmed.jpg",
+        "elenco": "Ayelén Naiman, Daniela Vega, Tania Tedesco",
+        "director": "Lola Arias",
+        "trailer": "https://www.youtube.com/watch?v=abcdefghijkl",
+        "wikipedia": "https://pics.filmaffinity.com/reas-741219035-mmed.jpg"
+      },
+      {
+        "id": 41,
+        "title": "Tú me abrasas",
+        "estreno": "2024-04-12",
+        "duracion": "72 minutos",
+        "sinopsis": "Una comedia romántica que cuenta la historia de dos personas que se conocen en una app de citas y se enamoran a pesar de sus diferencias.",
+        "imagen": "https://pics.filmaffinity.com/tu_me_abrasas-570663775-mmed.jpg",
+        "elenco": "Agustín Bataller, Eugenia Tobal, Daniel Verón",
+        "director": "Matías Piñeiro",
+        "trailer": "https://www.youtube.com/watch?v=mnopqrstuvw",
+        "wikipedia": "https://es.wikipedia.org/wiki/T%C3%BA_me_abrasas_(pel%C3%ADcula)"
+      },
+      {
+        "id": 42,
+        "title": "Barcos y catedrales",
+        "estreno": "2024-04-19",
+        "duracion": "104 minutos",
+        "sinopsis": "Un drama que retrata la vida de un grupo de jóvenes que viven en un barrio marginal de Buenos Aires y buscan una salida a través del arte.",
+        "imagen": "https://pics.filmaffinity.com/barcos_y_catedrales-505042404-mmed.jpg",
+        "elenco": "Lucas Ezequiel Gómez, Ulises Rodríguez, Brian De la Torre",
+        "director": "Nicolás Herzog",
+        "trailer": "https://www.youtube.com/watch?v=wxylmnopqrs",
+        "wikipedia": ""
+      },
+      {
+        "id": 43,
+        "title": "El aroma del pasto recién cortado",
+        "estreno": "2024-05-31",
+        "duracion": "87 minutos",
+        "sinopsis": "Un documental que explora la relación entre el ser humano y la naturaleza a través de la historia del perfume.",
+        "imagen": "https://pics.filmaffinity.com/el_aroma_del_pasto_recien_cortado-899745474-mmed.jpg",
+        "elenco": "",
+        "director": "Agustín Wauters",
+        "trailer": "https://www.youtube.com/watch?v=tuvwxyzabcde",
+        "wikipedia": ""
+      }
+    ]
+    
+    
 
                       
                   
