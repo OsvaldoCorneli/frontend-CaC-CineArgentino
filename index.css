@@ -87,6 +87,10 @@ max-height: 650px;
  ;
 }
 
+.errores{
+    display: none;
+}
+
 @media(max-width: 340px){
     #estrenos div img{
         width: 100%;

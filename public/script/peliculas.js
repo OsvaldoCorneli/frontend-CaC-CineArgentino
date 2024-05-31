@@ -13,7 +13,7 @@ const getPeliculas =  async ()=>{
 async function htmlArmado(){ 
     
     peliculas = await getPeliculas()
-    console.log(peliculas)
+    
     const row = document.querySelector(".row")
 
     peliculas.forEach((pelicula)=>{
@@ -60,7 +60,7 @@ async function htmlArmado(){
 htmlArmado()
 
 function popUpPelicula(id){
-        console.log("LA PELICULA id", id)
+
     const boton = document.querySelector("#botonPeliculaModals")
     
             peliculas.forEach((element)=>{
@@ -88,9 +88,6 @@ function popUpPelicula(id){
             `
 
             imagen.src = element.imagen
-
-            console.log(informacion)
-
             }
         })
          boton.click()
