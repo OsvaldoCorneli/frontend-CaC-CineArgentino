@@ -111,34 +111,35 @@
  <div class="modal fade  bg-black" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
    <div class="modal-content">
-     <form class="w-100 p-5">
-        <fieldset>
+    <form class="w-100 p-5">
+      <fieldset>
           <div class="row">
-            <legend class="col-11">Iniciar Sesion</legend>
-            <button  type="button" class="btn-close bg-black col-1" data-bs-dismiss="modal" aria-label="Close"></button>
+              <legend class="col-11">Iniciar Sesión</legend>
+              <button type="button" class="btn-close bg-black col-1" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           
           <div class="mb-3">
-            <label for="disabledTextInput" class="form-label">Email: </label>
-            <input type="text"  class="form-control" placeholder="ingresar email">
+              <label for="emailInput" class="form-label">Email: </label>
+              <span class="errores text-danger" id="error-email">Mensaje de error</span>
+              <input type="text" id="emailInput" class="form-control" placeholder="Ingresar email" name="email">
           </div>
           <div class="mb-3">
-            <label for="disabledSelect" class="form-label">Contraseña: </label>
-            <input type="password"  class="form-control" placeholder="ingresar contraseña">
+              <label for="passwordInput" class="form-label">Contraseña: </label>
+              <span id="error-password" class="errores text-danger">Mensaje de error</span>
+              <input type="password" id="passwordInput" class="form-control" placeholder="Ingresar contraseña" name="password">
           </div>
           <div class="mb-3">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
-              <label class="form-check-label" for="disabledFieldsetCheck">
-                Recordarme
-              </label>
-            </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                  <label class="form-check-label" for="disabledFieldsetCheck">
+                      Recordarme
+                  </label>
+              </div>
           </div>
-          <button type="submit" class="btn btn-primary d-flex justify-content-center">Iniciar Sesion</button>
-        </fieldset>
-        <a href="./registro.html" class="text-center">crear una cuenta</a>
-      </form>
-      
+          <button type="submit" class="btn btn-primary d-flex justify-content-center" id="botonIngresar">Iniciar Sesión</button>
+      </fieldset>
+      <a href="./registro.html" class="text-center">Crear una cuenta</a>
+  </form>
     </div>
   </div>
 </div> 
